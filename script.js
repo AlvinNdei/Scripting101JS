@@ -1,4 +1,5 @@
 const display=document.getElementById("display");
+const π=3.14159;
 
 function appendToDisplay(input){
     display.value+=input;
@@ -16,4 +17,12 @@ function calculate(){
         display.value="Error";
     }
     
+}
+function calculatesqrt(){
+    try{
+        display.value=eval(Math.sqrt(display.value));
+    }
+    catch(error){
+        display.value('Error');
+    }
 }
