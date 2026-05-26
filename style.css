@@ -4,6 +4,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
+    background:linear-gradient(135deg,orange,blue);
     background-color:hsl(0,0%,95%);
 }
 #keys{
